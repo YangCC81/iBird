@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Taiwan bird list">
+    <meta name="author" content="Catherine">
+    <title>iBird</title>
+    <link rel="icon" href="../img/icon.jpg">
+    <link rel="stylesheet" href="../dropdown_footer.css">
+    <link rel="stylesheet" href="./op.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+
+</head>
+
+<body>
+<!-- logo+導覽列 -->
+    <header>
+    <span class="logo_img"><img src="../img/logo2.jpg" id="logoimg"></span>
+    <div class="navbar">
+        <a href="../homepage.html">首頁</a>
+        <a href="../newspage/newspage.html">最新消息</a>
+        <div class="dropdown">
+            <button class="dropbtn">常見鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="../species introduction/city_and_park.html">城市公園</a>
+                <a href="../species introduction/coastal.html">海岸溼地</a>
+                <a href="../species introduction/mountains.html">山地森林</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">關注鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="../species introduction/Conservation.html">保育類鳥類</a>
+                <a href="../species introduction/cityFocus.html">縣市關注鳥種</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">意見回饋
+                    <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                    <a href="./ERR.html">錯誤回報</a>
+                    <a href="./opinion.html">相關建議</a>
+            </div>
+        </div>
+    </div>
+    </header>
+
+<br>
+<!-- 錯誤回報 -->
+    <div id="erTitle">錯誤回報</div><br>
+    <div class="erBigDiv">請您依遇到的狀況，點選以下的選項，幫助我們使網站變得更好!
+    <form>
+        <table>
+            <tr>
+                <th>錯誤狀況</th><br>
+                <td>                    
+                    <label>
+                        <input type="checkbox">網頁無顯示內容
+                    </label><br>
+                    <label>
+                        <input type="checkbox" id="input_1">網頁內容錯誤:
+                        <input type="text" placeholder="請輸入錯誤頁面" id="input_1Required">                   
+                    </label><br>
+                    <label>
+                        <input type="checkbox" id="input_2">鳥種照片無法載入:
+                        <input type="text" placeholder="請輸入錯誤鳥種名稱" id="input_2Required">
+                    </label><br>
+                    <label>
+                        <input type="checkbox" id="input_3">鳥音無法聆聽: 
+                        <input type="text" placeholder="請輸入錯誤鳥種名稱" id="input_3Required">
+                    </label><br>
+                </td>
+            </tr>
+            <tr>
+                <th>驗證碼</th>
+                <td>
+                    <span id="code"></span>
+                    <!-- <a href="#" id="record" style="font-size: 12px;">更新驗證碼</a><br>       -->
+                    <input type="text" placeholder="請輸入驗證碼(不分大小寫,沒有數字0&1)" id="input">
+                    <a href="#" style="font-size: 12px;" onclick="recordText()">測試紐</a>
+                </td>
+            </tr>
+        </table><br>
+        <input type="button" value="送出" id="validate">
+    
+   
+    </form>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 頁尾資訊欄 -->
+<footer class="footer">
+    <hr style="border:solid 0.5px rgb(105, 104, 104);">
+    <div class="footerDiv">
+        聯絡我們<br>
+        電話:02-12345678<br>
+        地址:110台北市信義區信義路五段7號89樓<br>
+        郵件:aaa@ibird.com.tw
+    <div style="margin-left: 50px;">
+        <a href="https://www.facebook.com/groups/frontbird/"  target="_blank"><img src="../img/FB_logo_preview_rev_1.png" class="footImg"></a>
+        <a href="https://twitter.com/"  target="_blank"><img src="../img/TW_logo_preview_rev_1.png" class="footImg"></a>
+        <a href="https://www.instagram.com/twbf_insta/"  target="_blank"><img src="../img/IG_logo_preview_rev_1.png" class="footImg"></a>
+    </div>
+
+    </div>
+
+</footer>
+
+
+
+<script>
+    var code ='';
+    var checkCode = document.getElementById("code");
+    //字顏色、底色、字間距
+    var fontColor = ["blue",'yellow','red'];
+    var bgColor = ['yellow','red',"blue"];
+    var ls = ["2px","8px",'-2px'];
+    var iColor;
+    //隨機顏色組合
+    function randColor(){
+        iColor = Math.floor(Math.random()*(fontColor.length));
+        return iColor;
+    }
+    //隨機驗證碼
+    function createCode(){
+        var ci = randColor();
+        checkCode.style['color']=fontColor[ci];
+        checkCode.style['background-color']=bgColor[ci];
+        checkCode.style['letter-spacing']=ls[ci];
+        code = '';
+        var codeLength = 6;
+        var random = [2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+        for (i = 0; i < codeLength; i++){
+            var index = Math.floor(Math.random()*34);//拿到隨機數的索引
+            code += random[index]; //重複6次把隨機數疊加
+            checkCode.innerHTML = code;
+            //console.log(code)
+        }
+    }
+        //點擊按鈕更新驗證碼
+        // var reCord = document.getElementById('record');
+        // reCord.addEventListener('click',function(a){
+        //     createCode();
+        //     document.getElementById('input').value = '';//清空輸入框
+        //     a.preventDefault();//結束監聽
+        // });
+        // //點擊圖片更新驗證碼
+        checkCode.addEventListener('click',function(a){
+            createCode();
+            document.getElementById('input').val = '';
+            a.preventDefault();
+        });
+
+        //震動效果
+        function shake(elemID){
+           var elem = document.getElementById(elemID) ;
+           if(elem){
+            elem.classList.add('shake');
+            setTimeout(()=>{elem.classList.remove('shake')},800)
+           }
+        }
+
+        //驗證步驟
+        var validate = document.getElementById('validate');
+        validate.addEventListener('click',function(x){
+            var inputCode = document.getElementById('input').value.toUpperCase();
+
+                if(inputCode.length <=0){
+                    shake("input")
+                }
+                else if (inputCode !== code){
+                    alert('驗證碼輸入錯誤');
+                    createCode();
+                    document.getElementById('input').value = '';
+                }
+                else if ($("#input_1").prop("checked") && $("#input_1Required").val() == ''){
+                    shake("input_1Required")                 
+                }
+                else if ($("#input_2").prop("checked") && $("#input_2Required").val() == ''){
+                    shake("input_2Required") 
+                }
+                else if ($("#input_3").prop("checked") && $("#input_3Required").val() == ''){
+                    shake("input_3Required")
+                }
+                else{
+                    alert('已收到您的錯誤回報，我們會盡快改善，謝謝')
+                    createCode();
+                    $('input[type=checkbox]').prop('checked',false)
+                    document.getElementById('input').value = ''; 
+                    document.getElementById('input_1Required').value = '';    
+                    document.getElementById('input_2Required').value = '';   
+                    document.getElementById('input_3Required').value = '';   
+                }
+
+        });
+        createCode();
+        console.log(code);
+        //測試紐
+        function recordText(){
+            document.getElementById('input').value = code;
+        }
+
+</script>
+
+</body>
+</html>

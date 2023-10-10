@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Taiwan bird list">
+    <meta name="author" content="Catherine">
+    <title>iBird</title>
+    <link rel="icon" href="../img/icon.jpg">
+    <link rel="stylesheet" href="../news.css">
+    <link rel="stylesheet" href="../homepage_in.css">
+    <link rel="stylesheet" href="./species.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  rel="stylesheet"  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- logo+導覽列 -->
+    <header>
+    <span class="logo_img"><img src="../img/logo2.jpg" id="logoimg"></span>
+    <div class="navbar_sp">
+        <a href="../homepage.html">首頁</a>
+        <a href="../newspage/newspage.html">最新消息</a>
+        <div class="dropdown_sp">
+            <button class="dropbtn">常見鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="./city_and_park.html">城市公園</a>
+                <a href="./coastal.html">海岸溼地</a>
+                <a href="./mountains.html">山地森林</a>
+            </div>
+        </div>
+
+        <div class="dropdown_sp">
+            <button class="dropbtn">關注鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="./Conservation.html">保育類鳥類</a>
+                <a href="./cityFocus.html">縣市關注鳥種</a>
+            </div>
+        </div>
+
+        <div class="dropdown_sp">
+            <button class="dropbtn">意見回饋
+                    <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="../opinion/ERR.html">錯誤回報</a>
+                <a href="../opinion/opinion.html">相關建議</a>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+<br>
+<!--物種介紹區 -->
+<h1 id="spTitle">物種介紹</h1>
+    <hr class="hrr">
+
+    <!-- 連結按鈕 -->
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no1" class="in_a"><img src="../img_sp/城市/麻雀01.jpg" class="inImg"><Br><span class="inImgText">麻雀</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no2" class="in_a"><img src="../img_sp/城市/綠繡眼01.jpg" class="inImg"><Br><span class="inImgText">斯氏繡眼</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no3" class="in_a"><img src="../img_sp/城市/白頭翁01.jpg" class="inImg"><Br><span class="inImgText">白頭翁</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no4" class="in_a"><img src="../img_sp/城市/夜鷺01.jpg" class="inImg"><Br><span class="inImgText">夜鷺</span></a>
+    </div>
+    <hr class="hrr">
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no5" class="in_a"><img src="../img_sp/城市/白尾八哥01.jpg" class="inImg"><Br><span class="inImgText">白尾八哥</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no6" class="in_a"><img src="../img_sp/城市/家八哥02.jpg" class="inImg"><Br><span class="inImgText">家八哥</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no7" class="in_a"><img src="../img_sp/城市/洋燕01.jpg" class="inImg"><Br><span class="inImgText">洋燕</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no8" class="in_a"><img src="../img_sp/城市/家燕03.jpg" class="inImg"><Br><span class="inImgText">家燕</span></a>
+    </div>
+    <hr class="hrr">
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no9" class="in_a"><img src="../img_sp/城市/紅鳩01.jpg" class="inImg"><Br><span class="inImgText">紅鳩</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n10" class="in_a"><img src="../img_sp/城市/珠頸斑鳩01.jpg" class="inImg"><Br><span class="inImgText">珠頸斑鳩</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n11" class="in_a"><img src="../img_sp/城市/斑文鳥01.jpg" class="inImg"><Br><span class="inImgText">斑文鳥</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n12" class="in_a"><img src="../img_sp/城市/褐頭鷦鶯01.jpg" class="inImg"><Br><span class="inImgText">褐頭鷦鶯</span></a>
+    </div>
+    
+    <div id="BackTop">
+        <a href="#logoimg" style="text-decoration: none;color: white;display: flex;justify-content: center;margin-top: 25%;">Top</a>
+    </div>
+
+
+
+
+
+
+
+  <!-- No.1跳出視窗內容 -->
+    <div class="modal fade" id="modal_no1"> <!--套用跳出視窗 -->
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          <!-- 有了對話視窗 -->
+            <div class="modal-content">     <!-- 對話視窗內容 -->
+        <!-- 無header--><!-- body 輪播+表格 -->
+                <div class="modal-body">
+                    <div id="myCarousel_1" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../img_sp/城市/麻雀01.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img_sp/城市/麻雀02.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img_sp/城市/麻雀03.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"  data-bs-target="#myCarousel_1" data-bs-slide="prev"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>   <br>
+                            <div>
+                                <table>
+                                    <th class="thTitle" colspan="2">麻雀</th>
+                                    <tr>
+                                        <th>目科別</th>
+                                        <td>燕雀目-文鳥科</td>
+                                    </tr>
+                                    <tr>
+                                        <th>學名</th>
+                                        <td><i>Passer montanus</i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>臺灣地區遷徒屬性</th>
+                                        <td>留、普遍</td>
+                                    </tr>
+                                    <tr>
+                                        <th>特有性/保育等級</th>
+                                        <td>無</td>
+                                    </tr>
+                                    <tr>
+                                        <th>棲地與習性</th>
+                                        <td>麻雀是臺灣鳥類中最能夠適應人類棲地的鳥種，在都市鬧區環境中是最普遍的鳥種。海拔 500m 以下的城鎮、鄉村、農田的住家附近經常可見。喜歡於地面及稻田中覓食，經常數隻或成群活動，群聚性相當明顯。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>食性</th>
+                                        <td>幼鳥多以昆蟲為食，成鳥主要以稻穀及禾本科種子為食。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>鳴叫聲</th>
+                                        <td>常發出單調如「啾─啾─」的叫聲。<audio src="./sp_voice/麻雀 - Passer moabiticus.wav" controls></audio></td>
+                                    </tr>
+                                    <tr>
+                                        <th>繁殖期</th>
+                                        <td>在臺灣的繁殖期為 3 月至 7 月，但在秋冬季節也曾發現過求偶和交配行為，主要築巢於樹枝上或屋簷裡。</td>
+                                    </tr>
+                                </table>
+                            </div>                        
+                    </div>
+                </div>   
+        <!-- 無footer -->
+            </div> 
+        </div> 
+    </div>
+
+    <!-- No.2跳出視窗內容 -->
+    <div class="modal fade" id="modal_no2"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">
+                <div class="modal-body"><div id="myCarousel_2" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/綠繡眼01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/綠繡眼02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/綠繡眼03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_2" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_2" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">斯氏繡眼(綠繡眼)</th>
+                                    <tr><th>目科別</th><td>燕雀目-繡眼科</td></tr>
+                                    <tr><th>學名</th><td><i>Zosterops simplex</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>非常適應人類營造的綠地環境，包括公園、校園、庭園、行道樹、果園等，會隨著人類開發而至山區道路旁的林緣，也會與小型山鳥混群活動，但不會進入完全的天然林內。成群生活，鳥群規模約20至50隻，冬季的鳥群較大。休息時會互相理羽。夜間數隻一起依偎在樹上的細橫枝上睡覺。</td></tr>
+                                    <tr><th>食性</th><td>以蝶蛾幼蟲、小昆蟲、花蜜、花粉、各種小果為食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>平時的鳴叫聲為清楚尖銳的單音「幾伊」，尾音略顫抖。在原地停留許久時，僅發出柔細小聲、略帶鼻音的「得低悠」近似三連音。<audio src="./sp_voice/綠繡眼- Zosterops simplex.wav" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>於 4 至 8 月間繁殖，一年可有 2 窩。親鳥為一夫一妻制，雙親共同育雛。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.3跳出視窗內容 -->
+    <div class="modal fade" id="modal_no3"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_3" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/白頭翁01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/白頭翁02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/白頭翁03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_3" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_3" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">白頭翁</th>
+                                    <tr><th>目科別</th><td>燕雀目-鵯科</td></tr>
+                                    <tr><th>學名</th><td><i>Pycnonotus sinensis</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有亞種</td></tr>
+                                    <tr><th>棲地與習性</th><td>常出現在中低海拔的次生林、灌叢、農田、果園及都市公園與行道樹等環境。不太怕人。</td></tr>
+                                    <tr><th>食性</th><td>雜食性，以昆蟲及漿果等為食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>各地族群的鳴唱聲略有不同，臺灣北部與中部常可聽到似「酒酒雞酒酒、雞酒酒」、「酒雞酒雞酒、酒雞酒」或「酒雞酒酒雞」等歌聲。<audio src="./sp_voice/白頭翁〔白頭鵯〕 - Pycnonotus sinensis.mp3" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>成對繁殖，繁殖季是3月至7月，2月起即有明顯的繁殖領域。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.4跳出視窗內容 -->
+    <div class="modal fade" id="modal_no4"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">
+                <div class="modal-body"><div id="myCarousel_4" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/夜鷺01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/夜鷺02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/夜鷺03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_4" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_4" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">夜鷺</th>
+                                    <tr><th>目科別</th><td>鵜形目-鷺科</td></tr>
+                                    <tr><th>學名</th><td><i>Nycticorax nycticorax</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍/冬候鳥、稀有/過境鳥、稀有</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>生活在海拔1,500公尺以下的河流、沼澤、池塘、河口附近。樹棲性，特別喜歡棲息在紅樹林、竹林及木麻黃防風林間。大眼睛的構造正好配合其夜行的習性，在清晨及黃昏時也很活躍，日間常見其將頸部縮起，單足棲立於紅樹林或防風林中，有時會聚成大群。</td></tr>
+                                    <tr><th>食性</th><td>食物主要是水生的魚、蛙及昆蟲，但也會吃甲殼類、貝類、小鼠及雛鳥，為機會主義的掠食者。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>飛行時會發出粗啞宏亮而短暫的「呱、呱」聲，在夜空中清晰可聞。<audio src="./sp_voice/夜鷺 - Nycticorax nycticorax nycticorax.wav" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期為2至8月，以竹枝和樹枝在竹林、相思林及林麻黃林築巢。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.5跳出視窗內容 -->
+    <div class="modal fade" id="modal_no5"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_5" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/白尾八哥01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/白尾八哥02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/白尾八哥03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_5" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_5" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">白尾八哥</th>
+                                    <tr><th>目科別</th><td>燕雀目-椋鳥科</td></tr>
+                                    <tr><th>學名</th><td><i>Acridotheres javanicus</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>引進種、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息於平原及丘陵的開闊短草地、農田、河川地、高爾夫球場、都市及市郊的公園綠地、校園、馬路兩旁及分隔島之綠地等。極為適應人類環境，毫不畏懼在人類周遭活動，經常活動於柏油路面、水泥地上。經常與其它同屬的八哥共域活動，與家八哥的生態棲位極近似。</td></tr>
+                                    <tr><th>食性</th><td>雜食性，主要以地面的昆蟲 (尤其是蚱蜢)、蜥蜴、蚯蚓、草籽、果實、人類產生的各種垃圾食餘為食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>響亮的複合音後接著數聲響亮的「丟丟丟」。<audio src="" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>2至7月間繁殖，極為適應在都市內及人類周遭繁殖。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.6跳出視窗內容 -->
+    <div class="modal fade" id="modal_no6"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_6" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/家八哥01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/家八哥02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/家八哥03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_6" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_6" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">家八哥</th>
+                                    <tr><th>目科別</th><td>燕雀目-椋鳥科</td></tr>
+                                    <tr><th>學名</th><td><i>Acridotheres tristis</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>引進種、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息於平原及丘陵的開闊短草地、農田、河川地、高爾夫球場、都市及市郊的公園綠地、校園、馬路兩旁及分隔島之綠地等。極為適應人類環境，毫不畏懼在人類周遭活動，經常活動於柏油路面、水泥地上。經常與其它同屬的八哥共域活動，與家八哥的生態棲位極近似。</td></tr>
+                                    <tr><th>食性</th><td>雜食性，主要以地面的昆蟲 (尤其是蚱蜢)、蜥蜴、蚯蚓、草籽、果實、人類產生的各種垃圾食餘為食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>鳴聲嘹亮，略為聒噪，最常發出的鳴聲為連續4至7聲的嘹亮單音「丟丟丟⋯⋯」。<audio src="./sp_voice/家八哥 - Acridotheres tristis Acridotheres tristis tristis.wav" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>5至7月間繁殖，極為適應在都市內及人類周遭繁殖。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.7跳出視窗內容 -->
+    <div class="modal fade" id="modal_no7"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_7" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/洋燕01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/洋燕02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/洋燕03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_7" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_7" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">洋燕</th>
+                                    <tr><th>目科別</th><td>燕雀目-燕科</td></tr>
+                                    <tr><th>學名</th><td><i>Hirundo tahitica</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>常於農耕地、鄉村小鎮的住家附近或山坡上空飛行捕食昆蟲，飛行時通常不成大群而成鬆散約5隻以內的小群，飛行高度偏低，一大半的時間多在離地面或植群上方10m以內的低空飛行覓食，或混雜於其它燕群中。喜停棲於電線或空曠地區的枯樹枝上。</td></tr>
+                                    <tr><th>食性</th><td>以空中飛行的昆蟲如蚊、蠅、小型蛾類及甲蟲等為食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>悅耳的 twsit-twist-twist 聲，有時有快速的連音，示警時發出高音的 ti.ti.ti.ti.ti 或tweet 的叫聲。<audio src="./sp_voice/洋燕 - Hirundo tahitica.mp3 " controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期在4至6月間。巢呈半碗狀，口朝上，用小泥丸堆砌而成，貼附於牆壁或岩石朝下的表面，或營巢於建築物走廊、樑柱角落。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>
+    <!-- No.8跳出視窗內容 -->
+    <div class="modal fade" id="modal_no8"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_8" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/家燕01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/家燕02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/家燕03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_8" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_8" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">家燕</th>
+                                    <tr><th>目科別</th><td>燕雀目-燕科</td></tr>
+                                    <tr><th>學名</th><td><i>Hirundo rustica</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>夏候鳥、普遍/冬候鳥、普遍/過境鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息環境以中、低海拔的開闊地為主，很少進入森林地區，平地較為普遍，多見於農地、沼澤、魚塭地區，常大群於低空穿梭盤桓，捕食昆蟲。</td></tr>
+                                    <tr><th>食性</th><td>以蚊、蠅、小型甲蟲、蛾類、蟻、蜂等昆蟲為食，其中以蚊子為主。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>鳴叫聲為高音的 twit、twit 及「嘁嘁、喳喳」的叫聲。<audio src="./sp_voice/家燕 - Hirundo rustica.wav" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期在4至8月間，巢通常築在住家的走廊頂壁上，也見於屋內樑上或燈具上。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div> 
+    <!-- No.9跳出視窗內容 -->
+    <div class="modal fade" id="modal_no9"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_9" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/紅鳩01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/紅鳩02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/紅鳩03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_9" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_9" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">紅鳩</th>
+                                    <tr><th>目科別</th><td>鴿形目-鳩鴿科</td></tr>
+                                    <tr><th>學名</th><td><i>Streptopelia tranquebarica</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>分布於臺灣各地平地到海拔2,000公尺乾燥的開墾地。為臺灣最小型的鳩鴿科鳥類，會單獨、成對或小群活動，但也會結成數十隻的大群，經常成群停立在電線或樹枝上，或是在旱作地上。</td></tr>
+                                    <tr><th>食性</th><td>食物以落於地面上的穀類為主，也會攝取其它植物的種子。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>為輕聲而沉悶且快速的「咕-嚕嚕嚕」聲，會連續數次。<audio src="./sp_voice/紅鳩〔火斑鳩〕 - Streptopelia tranquebarica.mp3" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>一夫一妻制，繁殖期為4月至8月，築巢於樹上，巢為粗糙的淺盤狀。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>  
+    <!-- No.10跳出視窗內容 -->
+    <div class="modal fade" id="modal_n10"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_10" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/珠頸斑鳩01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/珠頸斑鳩02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/珠頸斑鳩03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_10" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_10" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">珠頸斑鳩</th>
+                                    <tr><th>目科別</th><td>鴿形目-鳩鴿科</td></tr>
+                                    <tr><th>學名</th><td><i>Streptopelia chinensis</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>分布於臺灣各地平地到海拔1,500公尺的開墾地及林地，非常適應人為環境，在都市中的綠地很容易見到。多單獨、成對或小群活動。覓食幾乎都在地面上漫步尋找，以晨昏時最為活躍。</td></tr>
+                                    <tr><th>食性</th><td>以植物種子為主食，尤其喜愛穀物。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>常發出「咕－咕咕－咕－咕」聲音。<audio src="./sp_voice/珠頸斑鳩 - Spilopelia chinensis.mp3" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>在臺灣的繁殖季為2月至7月。築巢於樹上，以小樹枝及枯葉為巢材，巢為盤狀。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>  
+    <!-- No.11跳出視窗內容 -->
+    <div class="modal fade" id="modal_n11"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_11" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/斑文鳥01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/斑文鳥02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/斑文鳥03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_11" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_11" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">斑文鳥</th>
+                                    <tr><th>目科別</th><td>燕雀目-梅花雀科</td></tr>
+                                    <tr><th>學名</th><td><i>Lonchura punctulata</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息於臺灣海拔 500m 以下的平地及低海拔丘陵，喜歡於農田及芒草叢中覓食，春夏期間經常成對活動，秋冬季時成5至8隻小群活動，但在食物集中地則會有數十至百隻的覓食群，群聚性相當明顯。</td></tr>
+                                    <tr><th>食性</th><td>成鳥或幼鳥皆以種籽為食，主要以稻穀、禾本科種子及蓼科種子為食，有攝取水綿的行為。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>叫聲為柔弱如「啾、啾、」的聲音。<audio src="./sp_voice/斑文鳥〔斑胸文鳥〕 - Lonchura punctulata topela.mp3" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>在臺灣幾乎全年皆可繁殖，築巢於離地2 至 6m 的樹木上，雌雄鳥共同啣草營巢。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>   
+    <!-- No.12跳出視窗內容 -->
+    <div class="modal fade" id="modal_n12"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_12" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/城市/褐頭鷦鶯01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/褐頭鷦鶯02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/城市/褐頭鷦鶯03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_12" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_12" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">褐頭鷦鶯</th>
+                                    <tr><th>目科別</th><td>燕雀目-扇尾鶯科</td></tr>
+                                    <tr><th>學名</th><td><i>Prinia inornata</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有亞種</td></tr>
+                                    <tr><th>棲地與習性</th><td>通常棲息於平地至中海拔的農耕地及開闊草原地帶，平地較為普遍。喜於稻田、草叢中活動，對環境條件不甚選擇。是臺灣3種鷦鶯中分布最廣的一種。</td></tr>
+                                    <tr><th>食性</th><td>以捕捉小型昆蟲為食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>常停在高突的枝條上，一面抖動身體，一面叫著單調、平緩的「啼、啼、啼」聲，有時亦會發出類似敲打金屬的叮呤聲。<audio src="./sp_voice/褐頭鷦鶯 - Prinia inornata.mp3" controls></audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期在3至7月間。築巢在離地面 0.5至1m 的雜亂草叢中。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>         
+
+
+
+
+
+<!-- 頁尾資訊欄 -->
+<footer class="footer">
+    <hr style="border:solid 0.5px rgb(105, 104, 104);">
+    <div class="footerDiv">
+        聯絡我們<br>
+        電話:02-12345678<br>
+        地址:110台北市信義區信義路五段7號89樓<br>
+        郵件:aaa@ibird.com.tw
+    <div style="margin-left: 50px;">
+        <a href="https://www.facebook.com/groups/frontbird/"  target="_blank"><img src="../img/FB_logo_preview_rev_1.png" class="footImg"></a>
+        <a href="https://twitter.com/"  target="_blank"><img src="../img/TW_logo_preview_rev_1.png" class="footImg"></a>
+        <a href="https://www.instagram.com/twbf_insta/"  target="_blank"><img src="../img/IG_logo_preview_rev_1.png" class="footImg"></a>
+    </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>

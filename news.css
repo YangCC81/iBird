@@ -1,0 +1,107 @@
+*{box-sizing:border-box}
+
+/*最大容器內橫向排列*/
+.big_div{
+    display: flex;
+    flex-direction: row;
+    margin:0; 
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* 投影片容器 */
+.slideshow_container{
+    max-height: 800px;
+    max-width: 1500px;
+    position: relative;
+    /* margin-left: 200px; */
+}
+
+/* 默認隱藏圖像 */
+.mySlides{
+    display: none;
+}
+
+/*投影片照片大小*/
+.mySlides_img{
+    height:700px;
+    width: 1300px;
+    object-fit: fill;
+}
+
+/* 左右按鈕 */
+.prev,.next{
+    cursor: pointer; /* 改變滑鼠靠近的圖示 */
+    position: absolute;
+    /*相對於父元素進行定位*/
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;/*兩個外觀間轉換的補間動畫*/
+    border-radius: 0 3px 3px 0; /*圓角*/
+    user-select: none;/*使用者不可選取*/
+}
+
+/* 將下一步按鈕置於右側 */
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* 靠近按鈕顏色會變深一點 */
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* 網址點選網址的樣式 */
+.a_style{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.a_style:hover{
+    text-decoration:underline;
+    background-color: #bbb;
+}
+
+
+/* 下方文字 */
+.Slidestext{
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* 淡入淡出動畫 */
+.mySlides{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes mySlides {
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+
+/*新聞視窗*/
+.news_text{
+    position:relative;
+    margin: 30px 100px 5px 30px;
+    border: dashed 1.5px gray;
+    width: 500px;
+}
+
+.news_title{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Taiwan bird list">
+    <meta name="author" content="Catherine">
+    <title>iBird</title>
+    <link rel="icon" href="../img/icon.jpg">
+    <link rel="stylesheet" href="../news.css">
+    <link rel="stylesheet" href="../homepage_in.css">
+    <link rel="stylesheet" href="./species.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  rel="stylesheet"  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- logo+導覽列 -->
+    <header>
+    <span class="logo_img"><img src="../img/logo2.jpg" id="logoimg"></span>
+    <div class="navbar_sp">
+        <a href="../homepage.html">首頁</a>
+        <a href="../newspage/newspage.html">最新消息</a>
+        <div class="dropdown_sp">
+            <button class="dropbtn">常見鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="./city_and_park.html">城市公園</a>
+                <a href="./coastal.html">海岸溼地</a>
+                <a href="./mountains.html">山地森林</a>
+            </div>
+        </div>
+
+        <div class="dropdown_sp">
+            <button class="dropbtn">關注鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="./Conservation.html">保育類鳥類</a>
+                <a href="./cityFocus.html">縣市關注鳥種</a>
+            </div>
+        </div>
+
+        <div class="dropdown_sp">
+            <button class="dropbtn">意見回饋
+                    <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="../opinion/ERR.html">錯誤回報</a>
+                <a href="../opinion/opinion.html">相關建議</a>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+<br>
+<!--物種介紹區 -->
+<h1 id="spTitle">物種介紹</h1>
+    <hr class="hrr">
+
+    <!-- 連結按鈕 -->
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no1" class="in_a"><img src="../img_sp/森林/小啄木01.jpg" class="inImg"><Br><span class="inImgText">小啄木</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no2" class="in_a"><img src="../img_sp/森林/小彎嘴01.jpg" class="inImg"><Br><span class="inImgText">小彎嘴</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no3" class="in_a"><img src="../img_sp/森林/山紅頭01.jpg" class="inImg"><Br><span class="inImgText">山紅頭</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no4" class="in_a"><img src="../img_sp/森林/五色鳥01.jpg" class="inImg"><Br><span class="inImgText">五色鳥</span></a>
+    </div>
+    <hr class="hrr">
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no5" class="in_a"><img src="../img_sp/森林/台灣山鷓鴣01.jpg" class="inImg"><Br><span class="inImgText">臺灣山鷓鴣</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no6" class="in_a"><img src="../img_sp/森林/台灣竹雞01.jpg" class="inImg"><Br><span class="inImgText">臺灣竹雞</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no7" class="in_a"><img src="../img_sp/森林/台灣藍鵲01.jpg" class="inImg"><Br><span class="inImgText">臺灣藍鵲</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no8" class="in_a"><img src="../img_sp/森林/灰喉山椒鳥01.jpg" class="inImg"><Br><span class="inImgText">灰喉山椒鳥</span></a>
+    </div>
+    <hr class="hrr">
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no9" class="in_a"><img src="../img_sp/森林/松雀鷹02.jpg" class="inImg"><Br><span class="inImgText">松雀鷹</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n10" class="in_a"><img src="../img_sp/森林/青背山雀01.jpg" class="inImg"><Br><span class="inImgText">青背山雀</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n11" class="in_a"><img src="../img_sp/森林/冠羽畫眉01.jpg" class="inImg"><Br><span class="inImgText">冠羽畫眉</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n12" class="in_a"><img src="../img_sp/森林/繡眼畫眉01.jpg" class="inImg"><Br><span class="inImgText">褐頭鷦鶯</span></a>
+    </div>
+
+    <div id="BackTop">
+        <a href="#logoimg" style="text-decoration: none;color: white;display: flex;justify-content: center;margin-top: 25%;">Top</a>
+    </div>
+
+
+
+
+
+  <!-- No.1跳出視窗內容 -->
+    <div class="modal fade" id="modal_no1"> <!--套用跳出視窗 -->
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          <!-- 有了對話視窗 -->
+            <div class="modal-content">     <!-- 對話視窗內容 -->
+        <!-- 無header--><!-- body 輪播+表格 -->
+                <div class="modal-body">
+                    <div id="myCarousel_1" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../img_sp/森林/小啄木01.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img_sp/森林/小啄木02.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img_sp/森林/小啄木03.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"  data-bs-target="#myCarousel_1" data-bs-slide="prev"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>   <br>
+                            <div>
+                                <table>
+                                    <th class="thTitle" colspan="2">小啄木</th>
+                                    <tr>
+                                        <th>目科別</th>
+                                        <td>鴷形目-啄木鳥科</td>
+                                    </tr>
+                                    <tr>
+                                        <th>學名</th>
+                                        <td><i>Dendrocopos canicapillus</i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>臺灣地區遷徒屬性</th>
+                                        <td>留、普遍</td>
+                                    </tr>
+                                    <tr>
+                                        <th>特有性/保育等級</th>
+                                        <td>無</td>
+                                    </tr>
+                                    <tr>
+                                        <th>棲地與習性</th>
+                                        <td>棲息於海拔2,000公尺以下的森林內，大多在闊葉樹林內出現，多單獨或成對活動。喜攀爬於樹幹或樹枝上，搜尋樹幹內或樹皮間的昆蟲。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>食性</th>
+                                        <td>以藏身於樹幹的昆蟲為食，覓食方式主要為啄木(peck)與覓啄(glean)，與。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>鳴叫聲</th>
+                                        <td>叫聲為清晰、尖銳如「唧、唧、唧、」的重複聲音。</audio></td>
+                                    </tr>
+                                    <tr>
+                                        <th>繁殖期</th>
+                                        <td>本種鑿樹洞為巢，雌雄鳥共同分擔孵卵及育雛工作。</td>
+                                    </tr>
+                                </table>
+                            </div>                        
+                    </div>
+                </div>   
+        <!-- 無footer -->
+            </div> 
+        </div> 
+    </div>
+
+    <!-- No.2跳出視窗內容 -->
+    <div class="modal fade" id="modal_no2"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">
+                <div class="modal-body"><div id="myCarousel_2" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/小彎嘴01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/小彎嘴02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/小彎嘴03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_2" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_2" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">小彎嘴</th>
+                                    <tr><th>目科別</th><td>燕雀目-畫鶥科</td></tr>
+                                    <tr><th>學名</th><td><i>Pomatorhinus ruficollis</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有種</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息於平地至山區海拔 1,500m闊葉樹林、灌叢或草叢，多見在底層或地面上活動。但在海拔 2,400m 處有時也能聽到其鳴叫聲。</td></tr>
+                                    <tr><th>食性</th><td>雜食性。兼食植物的果實、種子和各類昆蟲。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>常於清晨鳴叫，叫聲如「狗—乖─」，後音上揚，有時也單音而連續地「咯、咯、咯－」鳴叫。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期在4至6月，築巢於近地面上或離地約1m的草叢裡。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.3跳出視窗內容 -->
+    <div class="modal fade" id="modal_no3"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_3" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/山紅頭01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/山紅頭02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/山紅頭03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_3" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_3" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">山紅頭</th>
+                                    <tr><th>目科別</th><td>燕雀目-畫鶥科</td></tr>
+                                    <tr><th>學名</th><td><i>Stachyris ruficeps</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有亞種</td></tr>
+                                    <tr><th>棲地與習性</th><td>自平地丘陵地帶至海拔 2,500m高山的森林底層和叢藪都可見其蹤跡，但性羞怯，多隱藏於濃密的草叢裡，觀察不易。</td></tr>
+                                    <tr><th>食性</th><td>蟲食性。啄食甲蟲、螞蟻、鱗翅目幼蟲、膜翅目幼蟲和蜘蛛等。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>鳴叫多在晨昏時刻，常聽到的鳴叫聲有連續 5 音節的哨音「嘟、嘟、嘟、嘟、嘟」和2音節的「唧－啾－」。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期在4至7月。築巢於離地 20 至 120cm 的草叢裡。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.4跳出視窗內容 -->
+    <div class="modal fade" id="modal_no4"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">
+                <div class="modal-body"><div id="myCarousel_4" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/五色鳥01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/五色鳥02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/五色鳥03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_4" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_4" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">五色鳥</th>
+                                    <tr><th>目科別</th><td>鴷形目-亞洲鬚鴷科</td></tr>
+                                    <tr><th>學名</th><td><i>Megalaima nuchalis</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有種</td></tr>
+                                    <tr><th>棲地與習性</th><td>喜歡在平地至中高海拔闊葉林或公園中樹木枝葉較濃密處活動。臺灣南部的數量原來較北部多，但近年北部的數量已相當普遍，同時也較易在庭園中枝葉不濃密處見到。</td></tr>
+                                    <tr><th>食性</th><td>以野果、水果及少量的昆蟲等為食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>會將「咯、咯、咯」等單音組成約四種不同節奏與高低變化的鳴叫聲。清</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖季為3至8月，以6、7月為高峰。會在樹上自行鑿洞繁殖，所利用的樹木以枯樹所佔的比例較高，適合築巢的樹上最高有11個巢洞。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.5跳出視窗內容 -->
+    <div class="modal fade" id="modal_no5"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_5" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/台灣山鷓鴣01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/台灣山鷓鴣02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/台灣山鷓鴣03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_5" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_5" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">臺灣山鷓鴣</th>
+                                    <tr><th>目科別</th><td>雞形目-雉科</td></tr>
+                                    <tr><th>學名</th><td><i>Arborophila crudigularis</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有種/第三級其他應予保育之野生動物</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息於中、低山區海拔300至2,300公尺原始闊葉樹林的底層，地表植被不多，但或多或少有腐植層的鬱蔽空間，偶爾也在裸露地出現。性甚害羞而機警，不易發現。</td></tr>
+                                    <tr><th>食性</th><td>雜食性。在地上行走時，用腳爪扒開腐植層或土壤，啄食其中的蠕蟲。食物中包括植物的嫩芽、漿果、種子，以及動物的蚯蚓、昆蟲等。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>鳴叫聲大多可以在清晨和黃昏時聽到，是連續性顫抖般的「咕嚕、咕嚕…」，頻率由低逐漸升高，而在7至8聲咕嚕之後，緊接著是連續的「丟鼓、丟鼓」聲。有時也發出「咯、咯」或「校、校」的鳴叫聲。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期自每年的3月底至8月，築巢在地表或岩縫中，由乾草鋪設而成。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.6跳出視窗內容 -->
+    <div class="modal fade" id="modal_no6"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_6" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/台灣竹雞01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/台灣竹雞02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/台灣竹雞03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_6" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_6" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">臺灣竹雞</th>
+                                    <tr><th>目科別</th><td>雞形目-雉科</td></tr>
+                                    <tr><th>學名</th><td><i>Bambusicola thoracica</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有種</td></tr>
+                                    <tr><th>棲地與習性</th><td>主要棲息於海拔 300 至 1,200 公尺以下之丘陵地，多活躍於雜木林、竹林、灌叢及草叢地，有時也會漫遊到 2,300 公尺的山區。</td></tr>
+                                    <tr><th>食性</th><td>雜食性。以植物的果實、種子、嫩葉、草籽等為主食，也兼食各類昆蟲。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>晨昏期間常聞其高亢而連續的「雞狗乖—雞狗乖—」或「四隻作一盤、四隻作一盤（台語）」的鳴叫聲。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期在4至8月間，築巢於灌叢、草叢或樹根附近的地面凹陷處，以草和樹葉組成。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.7跳出視窗內容 -->
+    <div class="modal fade" id="modal_no7"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_7" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/台灣藍鵲01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/台灣藍鵲02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/台灣藍鵲03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_7" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_7" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">臺灣藍鵲</th>
+                                    <tr><th>目科別</th><td>燕雀目-鴉科</td></tr>
+                                    <tr><th>學名</th><td><i>Urocissa caerulea</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有種/第三級其他應予保育之野生動物</td></tr>
+                                    <tr><th>棲地與習性</th><td>多成群活動，一群可能有3至12隻，多由家庭成員組成。同群個體間似乎有固定位階，移動時常成群排成一列縱隊在樹冠層飛行。性情凶悍，領域性強，對入侵的個體會猛烈攻擊，也會集體禦敵，同一群鳥可多年維持相同的領域。棲息於中低海拔的闊葉林、次生林或公園等樹木較多的地方。</td></tr>
+                                    <tr><th>食性</th><td>雜食性，以果實、植物的根莖、昆蟲、蜥蜴、巢中的幼鳥或卵、鼠類、蛇類等小動物、甚至人類的廚餘、動物的屍體為食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>會發出聒噪的「嘎、嘎、嘎」叫聲，群中個體也會以「地笛－、地笛－」、「嘎嘎-穗」等叫聲互相呼喚。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖季是3至7月。成對繁殖，但是上一季孵出的幼鳥會留在巢邊幫親鳥尋找巢材、餵雛鳥或共同禦敵，因此一個鳥群的組成可能包括一對繁殖鳥及數個幫手，但僅有一隻雌鳥會產卵及負責孵卵。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>
+    <!-- No.8跳出視窗內容 -->
+    <div class="modal fade" id="modal_no8"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_8" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/灰喉山椒鳥01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/灰喉山椒鳥02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/灰喉山椒鳥03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_8" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_8" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">灰喉山椒鳥</th>
+                                    <tr><th>目科別</th><td>燕雀目-山椒鳥科</td></tr>
+                                    <tr><th>學名</th><td><i>Pericrocotus solaris</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息於台灣海拔300公尺至2,500公尺之間的山區，喜愛闊葉樹林上層，甚少停棲於針葉樹上。</td></tr>
+                                    <tr><th>食性</th><td>以昆蟲為食，覓食方式主要為飛啄(hover)，非繁殖季經常與小卷尾形成混群共同覓食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>叫聲為輕細如「秀細—秀細—」的重複聲音</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>在台灣的繁殖期為4月至7月，築巢於高枝上，以禾草、蕨類及苔蘚為材料。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div> 
+    <!-- No.9跳出視窗內容 -->
+    <div class="modal fade" id="modal_no9"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_9" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/松雀鷹03.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/松雀鷹02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/松雀鷹01.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_9" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_9" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">松雀鷹</th>
+                                    <tr><th>目科別</th><td>鷹形目-鷲鷹科</td></tr>
+                                    <tr><th>學名</th><td><i>Accipiter virgatus</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、不普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有亞種/第二級珍貴稀有野生動物</td></tr>
+                                    <tr><th>棲地與習性</th><td>以低中海拔樹林為棲地，對林相要求並不高，天然林與人工林都能適應。大部分時間停棲於林間隱密處，或在林間短暫飛行變換位置，甚少高飛。</td></tr>
+                                    <tr><th>食性</th><td>以小型鳥為主食，佔生物量8成以上。其他副食包括蜥蜴、鼠、蟬、蝙蝠等。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>常鳴叫。警戒聲為「啾－救救救救…」。雄鳥的求偶聲為「啾•啾•啾•」。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>於森林內營樹巢，偏好在稜線處或台地的大樹築巢，巢本身並不隱密，但位置常是人跡罕至的角落，或由地面不易直視的位置。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>  
+    <!-- No.10跳出視窗內容 -->
+    <div class="modal fade" id="modal_n10"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_10" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/青背山雀01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/青背山雀02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/青背山雀03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_10" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_10" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">青背山雀</th>
+                                    <tr><th>目科別</th><td>燕雀目-山雀科</td></tr>
+                                    <tr><th>學名</th><td><i>Parus monticolus</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有亞種/第三級其他應予保育之野生動物</td></tr>
+                                    <tr><th>棲地與習性</th><td>分布於中、高海拔的闊葉樹林中。可見單獨或成對在枝葉間覓食，也可見成小群活動，會利用森林、庭園或耕作區，並常與紅頭長尾山雀、冠羽鳳鶥、煤山雀和台灣戴菊等形成混合鳥群一起活動。</td></tr>
+                                    <tr><th>食性</th><td>小型昆蟲、蛾、蝶、種子、果實等。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>常發出輕快的「急、急－救－」叫聲來與同群個體聯繫，也會發出連續很多聲的「啾、啾、啾」叫聲。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>一夫一妻制，有偶外交配行為。繁殖季主要是3至6月，但秋天也有個體還在育幼。巢築在樹洞中。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>  
+    <!-- No.11跳出視窗內容 -->
+    <div class="modal fade" id="modal_n11"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_11" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/冠羽畫眉01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/冠羽畫眉02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/冠羽畫眉03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_11" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_11" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">冠羽畫眉</th>
+                                    <tr><th>目科別</th><td>燕雀目-繡眼科</td></tr>
+                                    <tr><th>學名</th><td><i>Yuhina brunneiceps</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有種/第三級其他應予保育之野生動物</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息於中、高山海拔 1,200 至2,800m 闊葉樹林和針、闊葉樹混合林的上層，常成小群約3至7隻在枝葉間活動，也會與其它同等大小的鳥類如綠背山雀、繡眼雀鶥、紅頭長尾山雀等混群活動。</td></tr>
+                                    <tr><th>食性</th><td>雜食性。多在樹冠層的枝葉間啄食花蜜、果實和昆蟲，有時也會於清晨到路燈下啄食前一夜聚集的夜蛾。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>鳴唱聲為宏亮、婉囀、圓潤而悅耳的「吐米酒⋯」或「to–met—you」。在小群活動時多以音節快速的「吱、吱」相呼應。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期自3月下旬至9月下旬。在3至4月的繁殖前期，親鳥群數較大而不穩定，但有些形成2隻的成對活動，直到進入繁殖中期後，成對者才合併成為一個穩定的繁殖群。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>   
+    <!-- No.12跳出視窗內容 -->
+    <div class="modal fade" id="modal_n12"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_12" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/森林/繡眼畫眉01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/繡眼畫眉02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/森林/繡眼畫眉03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_12" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_12" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">繡眼畫眉</th>
+                                    <tr><th>目科別</th><td>燕雀目-雀眉科</td></tr>
+                                    <tr><th>學名</th><td><i>Alcippe morrisonia</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>臺灣特有種</td></tr>
+                                    <tr><th>棲地與習性</th><td>分布範圍甚廣，自平原至海2,800m 的高山都可見其蹤跡。林棲性鳥類，活動於林中各層面，包括低層的叢藪、中層的枝葉末端和上層的樹梢。</td></tr>
+                                    <tr><th>食性</th><td>：雜食性。繁殖季的食物以昆蟲為主，非繁殖季取食果實和雜草種籽。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>常聽到的鳴唱為急促的「急、急、急、急、急」，有時也會唱出聲音細柔的「咪—多勒咪」。</td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期在3至6月，築巢於離地約 2m 的樹上，巢杯狀。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>         
+
+
+
+
+
+<!-- 頁尾資訊欄 -->
+<footer class="footer">
+    <hr style="border:solid 0.5px rgb(105, 104, 104);">
+    <div class="footerDiv">
+        聯絡我們<br>
+        電話:02-12345678<br>
+        地址:110台北市信義區信義路五段7號89樓<br>
+        郵件:aaa@ibird.com.tw
+    <div style="margin-left: 50px;">
+        <a href="https://www.facebook.com/groups/frontbird/"  target="_blank"><img src="../img/FB_logo_preview_rev_1.png" class="footImg"></a>
+        <a href="https://twitter.com/"  target="_blank"><img src="../img/TW_logo_preview_rev_1.png" class="footImg"></a>
+        <a href="https://www.instagram.com/twbf_insta/"  target="_blank"><img src="../img/IG_logo_preview_rev_1.png" class="footImg"></a>
+    </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>

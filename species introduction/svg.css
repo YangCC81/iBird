@@ -1,0 +1,48 @@
+/* body{
+    background-color: rgb(96, 120, 52);
+} */
+svg{
+    height: 100vh;
+}
+
+path{
+    stroke: rgb(255, 255, 255);
+    fill: rgb(86, 126, 86);
+    /* transparent */
+    transition: 0.5s;
+    cursor: pointer;
+}
+path:hover{
+    fill:gold ;
+    transform: translate(-5px,-5px);
+}
+
+#mapBigDiv{
+    display: flex;
+    margin-left:200px;
+}
+
+.cityTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+#cityname{
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.birdSy{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;  
+}
+
+#img{
+    width: 500px;
+    height: 400px; 
+}
+

@@ -1,0 +1,44 @@
+.divIn{
+    display: flex;
+    justify-content: center;
+}
+
+.dl_1{
+    border: gray 1.5px dashed;
+    background-color: white;    
+}
+#divIn_h2{
+    display: flex;
+    justify-content: center;   
+}
+
+.divIn_span{
+    font-size: large;
+    font-weight: bold;
+}
+
+.linkImg{
+    height: 50px;
+    width: 220px;
+    margin-left: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(154, 94, 210);
+}
+
+#BackTop{
+    position: fixed;
+    right: 2px;
+    bottom: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgb(51, 50, 50) ;
+}
+
+#BackTop:hover{
+    background-color: gray;
+}

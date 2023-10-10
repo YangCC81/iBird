@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Taiwan bird list">
+    <meta name="author" content="Catherine">
+    <title>iBird</title>
+    <link rel="icon" href="./img/icon.jpg">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./dropdown_footer.css">
+    <link rel="stylesheet" href="./news.css">
+    <link rel="stylesheet" href="./homepage_in.css">
+</head>
+
+<body>
+<!-- logo+導覽列 -->
+    <header>
+    <span class="logo_img"><img src="./img/logo2.jpg" id="logoimg"></span>
+    <div class="navbar">
+        <a href="./homepage.html">首頁</a>
+        <a href="./newspage/newspage.html">最新消息</a>
+        <div class="dropdown">
+            <button class="dropbtn">常見鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="./species introduction/city_and_park.html">城市公園</a>
+                <a href="./species introduction/coastal.html">海岸溼地</a>
+                <a href="./species introduction/mountains.html">山地森林</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">關注鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="./species introduction/Conservation.html">保育類鳥類</a>
+                <a href="./species introduction/cityFocus.html">縣市關注鳥種</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">意見回饋
+                    <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                    <a href="./opinion/ERR.html">錯誤回報</a>
+                    <a href="./opinion/opinion.html">相關建議</a>
+            </div>
+        </div>
+    </div>
+    </header>
+
+<!--新聞輪播區 -->
+    <div class="big_div">
+    <div class="slideshow_container">
+        
+        <div class="mySlides">           
+            <img src="./img/homepage_news_1.jpg" class="mySlides_img">
+            <div class="Slidestext"><a href="../小專/newspage/news_1.html" class="a_style"><span style="background-color: green;">臺灣繁殖鳥地圖 - 2023自然實境拼圖大挑戰</span></a></div>
+            
+        </div>
+
+        <div class="mySlides">
+            <img src="./img/黑面琵鷺群聚 台南土城 (2)-台南鳥會郭東輝攝.jpg" class="mySlides_img">
+            <div class="Slidestext"><a href="../小專/newspage/news_2.html" class="a_style">2023黑面琵鷺全球同步普查成果出爐囉!</a></div>
+        </div>
+
+        <div class="mySlides">
+            <img src="./img/八色鳥Img.jpg" class="mySlides_img">
+            <div class="Slidestext"><a href="../小專/newspage/news_3.html" class="a_style">最新2023年臺灣⿃類名錄 現已公告</a></div>
+        </div>
+
+        <div class="mySlides">
+            <img src="./img/繁殖直播Img.jpg" class="mySlides_img">
+            <div class="Slidestext"><a href="../小專/newspage/news_4.html" class="a_style"><span style="background-color: rgb(137, 165, 10);">臺灣繁殖鳥類直播合集</span></a></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+    </div>
+
+
+<!-- 新聞小視窗  -->
+    <!-- </div>
+        <div class="news_text">
+            <h1 class="news_title">最新消息</h1>
+            <h2><a href="./newspage/news_1.html">台灣繁殖鳥地圖 - 2023自然實境拼圖大挑戰</a></h2>
+            <h2><a href="https://www.bird.org.tw/basicpage/2949">2023黑面琵鷺全球同步普查成果</a></h2>
+            <h2><a href="https://www.bird.org.tw/basicpage/87">最新2023年臺灣⿃類名錄 現已公告!!</a></h2>
+            <h2><a href="">臺灣繁殖鳥類直播合集~(YT搜尋)</a></h2>           
+        </div>
+    </div>
+    <br> -->
+<!-- 知識介紹區 -->
+    <div class="divIn">  
+        
+        <dl class="dl_1">
+            <h1 id="divIn_h2">鳥類基礎知識</h1>
+
+            <dt><h3 style="background-color:rgb(229, 145, 145);">鳥類成長階段</h3></dt>
+            <dd><span class="divIn_span">雛鳥:</span>指尚未離巢的個體。</dd>            
+            <dd><span class="divIn_span">幼鳥:</span>指已離巢至第一次換羽前的個體。</dd>            
+            <dd><span class="divIn_span">亞成鳥</span>:指似成鳥但尚未性成熟的個體。例如若一種鳥要四歲才開始繁殖，三歲的個體為亞成鳥。</dd>            
+            <dd><span class="divIn_span">成鳥:</span>羽色明確，具繁殖能力的個體。</dd>  
+
+            <dt><h3 style="background-color:rgb(242, 174, 47) ;">特有性</h3></dt>
+            <dd><span class="divIn_span">臺灣特有種:</span>全世界僅在臺灣才見得到的物種，目前臺灣有32種特有種鳥類。</dd>
+            <dd><span class="divIn_span">臺灣特有亞種:</span>因地理上的區隔經過長時間的演化使得本種產生一些特殊的遺傳特徵，和其他地區不太一樣而形成的物種。</dd>
+            <dd><span class="divIn_span">保育類:</span>珍貴稀有需要保護的野生動物。</dd>
+
+            <dt><h3 style="background-color: rgb(208, 208, 103);">臺灣保育等級</h3></dt>
+            <dd><span class="divIn_span">保育等級一級:</span>瀕臨絕種野生動物。</dd>
+            <dd><span class="divIn_span">保育等級二級:</span>珍貴稀有野生動物。</dd>
+            <dd><span class="divIn_span">保育等級三級:</span>其他應予保育之野生動物。</dd>
+            <dd></dd>
+
+            <dt><h3 style="background-color: rgb(93, 192, 93);">臺灣地區遷徒屬性</h3></dt>
+            <dd><span class="divIn_span">留鳥:</span>指終年在臺灣生存的鳥種</dd>
+            <dd><span class="divIn_span">冬候鳥:</span>指秋天到達，在臺灣度冬，春天離開到北方繁殖的鳥種</dd>
+            <dd><span class="divIn_span">夏候鳥:</span>指春天到達臺灣繁殖，在夏末秋初南遷的鳥種</dd>
+            <dd><span class="divIn_span">過境鳥:</span>是遷移季節會經過臺灣，可能會停下休息幾天，但並不長期停留的鳥種</dd>
+            <dd><span class="divIn_span">迷鳥:</span>指連續五年沒有固定出現，或歷史上曾在臺灣出現，但近年已不再出現的鳥種</dd>
+            <dd><span class="divIn_span">外來種:</span>自外地引進飼養鳥，因某種原因被野放或逃出的鳥種，在野外存活下來，即屬外來種。</dd>
+            <dd></dd>
+
+            <dt><h3 style="background-color: rgb(113, 210, 230);">換羽</h3></dt>
+            <dd><span class="divIn_span">夏羽:</span>鳥類羽毛會週期性的更換，鳥類夏天時更換出來的羽毛較鮮豔，因鳥類多半於春夏季繁殖。</dd>
+            <dd><span class="divIn_span">冬羽:</span>鳥類羽毛會週期性的更換，鳥類冬天時的羽毛較樸素。</dd>
+            <dd><span class="divIn_span">繁殖羽:</span>在繁殖期為吸引異性，更換為較豔麗的羽毛。不同鳥種其繁殖期亦不同。</dd>
+            <dd><span class="divIn_span">非繁殖羽:</span>繁殖期過後，為減少被敵人發現的機會，更換為較樸素的羽毛。</dd>
+        </dl>
+    </div>
+
+<!-- 相關連結區 -->
+    <div>
+        <div>
+        <h2 class="links">LINKS</h2>
+        <a href="https://www.tesri.gov.tw/?EMPLOYEES=" target="_blank"><img src="./img/特生中心logo.png" class="linkImg"></a>
+        <a href="https://www.bird.org.tw/"  target="_blank"><img src="./img/野鳥學會_logo.png" class="linkImg"></a>
+        <a href="https://today.to/tw/index-pc.html"  target="_blank"><img src="./img/鳥類網路圖鑑logo.gif" class="linkImg"></a>        
+        <a href="https://portal.taibif.tw/"  target="_blank"><img src="./img/台灣生物多樣性-logo.png" class="linkImg"></a>
+        <a href="http://www.birdtaiwan.com/?EMPLOYEES="  target="_blank"><img src="./img/社團法人野鳥學會_logo.png" class="linkImg"></a>
+        <a href="https://ebird.org/taiwan/home"  target="_blank"><img src="./img/ebird_logo.png" class="linkImg"></a>
+        </div>
+    </div>
+
+    <div id="BackTop">
+        <a href="#logoimg" style="text-decoration: none;color: white;display: flex;justify-content: center;margin-top: 25%;">Top</a>
+    </div>
+    
+
+
+<!-- 頁尾資訊欄 -->
+    <footer class="footer">
+        <hr style="border:solid 0.5px rgb(105, 104, 104);">
+        <div class="footerDiv">
+            聯絡我們<br>
+            電話:02-12345678<br>
+            地址:110台北市信義區信義路五段7號89樓<br>
+            郵件:aaa@ibird.com.tw
+        <div style="margin-left: 50px;">
+            <a href="https://www.facebook.com/groups/frontbird/" target="_blank"><img src="./img/FB_logo_preview_rev_1.png" class="footImg"></a>
+            <a href="https://twitter.com/"  target="_blank"><img src="./img/TW_logo_preview_rev_1.png" class="footImg"></a>
+            <a href="https://www.instagram.com/twbf_insta/"  target="_blank"><img src="./img/IG_logo_preview_rev_1.png" class="footImg"></a>
+        </div>
+
+        </div>
+
+    </footer>
+
+
+    <script>
+//輪播之JS
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+
+
+    </script>
+</body>
+</html>

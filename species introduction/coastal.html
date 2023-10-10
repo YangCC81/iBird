@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Taiwan bird list">
+    <meta name="author" content="Catherine">
+    <title>iBird</title>
+    <link rel="icon" href="../img/icon.jpg">
+    <link rel="stylesheet" href="../news.css">
+    <link rel="stylesheet" href="../homepage_in.css">
+    <link rel="stylesheet" href="./species.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"  rel="stylesheet"  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- logo+導覽列 -->
+    <header>
+    <span class="logo_img"><img src="../img/logo2.jpg" id="logoimg"></span>
+    <div class="navbar_sp">
+        <a href="../homepage.html">首頁</a>
+        <a href="../newspage/newspage.html">最新消息</a>
+        <div class="dropdown_sp">
+            <button class="dropbtn">常見鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="./city_and_park.html">城市公園</a>
+                <a href="./coastal.html">海岸溼地</a>
+                <a href="./mountains.html">山地森林</a>
+            </div>
+        </div>
+
+        <div class="dropdown_sp">
+            <button class="dropbtn">關注鳥種
+                <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="./Conservation.html">保育類鳥類</a>
+                <a href="./cityFocus.html">縣市關注鳥種</a>
+            </div>
+        </div>
+
+        <div class="dropdown_sp">
+            <button class="dropbtn">意見回饋
+                    <i class="caret_down"></i>
+            </button>
+            <div class="dropdown_content">
+                <a href="../opinion/ERR.html">錯誤回報</a>
+                <a href="../opinion/opinion.html">相關建議</a>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+<br>
+<!--物種介紹區 -->
+<h1 id="spTitle">物種介紹</h1>
+    <hr class="hrr">
+
+    <!-- 連結按鈕 -->
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no1" class="in_a"><img src="../img_sp/海岸/大白鷺01.jpg" class="inImg"><Br><span class="inImgText">大白鷺</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no2" class="in_a"><img src="../img_sp/海岸/小白鷺01.jpg" class="inImg"><Br><span class="inImgText">小白鷺</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no3" class="in_a"><img src="../img_sp/海岸/小環頸鴴03.jpg" class="inImg"><Br><span class="inImgText">小環頸鴴</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no4" class="in_a"><img src="../img_sp/海岸/白鶺鴒03.jpg" class="inImg"><Br><span class="inImgText">白鶺鴒</span></a>
+    </div>
+    <hr class="hrr">
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no5" class="in_a"><img src="../img_sp/海岸/東方環頸鴴01.jpg" class="inImg"><Br><span class="inImgText">東方環頸鴴</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no6" class="in_a"><img src="../img_sp/海岸/青足鷸01.jpg" class="inImg"><Br><span class="inImgText">青足鷸</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no7" class="in_a"><img src="../img_sp/海岸/紅冠水雞01.jpg" class="inImg"><Br><span class="inImgText">紅冠水雞</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no8" class="in_a"><img src="../img_sp/海岸/高蹺鴴01.jpg" class="inImg"><Br><span class="inImgText">高蹺鴴</span></a>
+    </div>
+    <hr class="hrr">
+    <div class="inDiv">  
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_no9" class="in_a"><img src="../img_sp/海岸/黃頭鷺02.jpg" class="inImg"><Br><span class="inImgText">黃頭鷺</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n10" class="in_a"><img src="../img_sp/海岸/翠鳥01.jpg" class="inImg"><Br><span class="inImgText">翠鳥</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n11" class="in_a"><img src="../img_sp/海岸/蒼鷺02.jpg" class="inImg"><Br><span class="inImgText">蒼鷺</span></a>
+        <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#modal_n12" class="in_a"><img src="../img_sp/海岸/磯鷸01.jpg" class="inImg"><Br><span class="inImgText">磯鷸</span></a>
+    </div>
+    <div id="BackTop">
+        <a href="#logoimg" style="text-decoration: none;color: white;display: flex;justify-content: center;margin-top: 25%;">Top</a>
+    </div>
+
+
+
+
+
+
+  <!-- No.1跳出視窗內容 -->
+    <div class="modal fade" id="modal_no1"> <!--套用跳出視窗 -->
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          <!-- 有了對話視窗 -->
+            <div class="modal-content">     <!-- 對話視窗內容 -->
+        <!-- 無header--><!-- body 輪播+表格 -->
+                <div class="modal-body">
+                    <div id="myCarousel_1" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../img_sp/海岸/大白鷺01.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img_sp/海岸/大白鷺02.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img_sp/海岸/大白鷺03.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"  data-bs-target="#myCarousel_1" data-bs-slide="prev"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>   <br>
+                            <div>
+                                <table>
+                                    <th class="thTitle" colspan="2">大白鷺</th>
+                                    <tr>
+                                        <th>目科別</th>
+                                        <td>鵜形目-鷺科</td>
+                                    </tr>
+                                    <tr>
+                                        <th>學名</th>
+                                        <td><i>Ardea alba</i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>臺灣地區遷徒屬性</th>
+                                        <td>留、不普遍/夏候鳥、不普遍/冬候鳥、普遍</td>
+                                    </tr>
+                                    <tr>
+                                        <th>特有性/保育等級</th>
+                                        <td>無</td>
+                                    </tr>
+                                    <tr>
+                                        <th>棲地與習性</th>
+                                        <td>棲息於沼澤地、湖濱、河畔、池塘及海岸潮間帶泥灘地。日行性。常與鷺科其它鳥類如小白鷺、中白鷺、蒼鷺和黑面琵鷺等混群在各類濕地覓食。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>食性</th>
+                                        <td>各種水生動物，包括魚、蛙、蝦、蟹、蛇、水生昆蟲以及陸棲的蜥蜴、雛鳥等。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>鳴叫聲</th>
+                                        <td>低沉而粗啞。</td>
+                                    </tr>
+                                    <tr>
+                                        <th>繁殖期</th>
+                                        <td>臺灣原來沒有繁殖紀錄，最近發現在臺南市安平鹽水溪口有少數於海茄苳紅樹林裡繁殖。</td>
+                                    </tr>
+                                </table>
+                            </div>                        
+                    </div>
+                </div>   
+        <!-- 無footer -->
+            </div> 
+        </div> 
+    </div>
+
+    <!-- No.2跳出視窗內容 -->
+    <div class="modal fade" id="modal_no2"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">
+                <div class="modal-body"><div id="myCarousel_2" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/小白鷺01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/小白鷺02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/小白鷺03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_2" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_2" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">小白鷺</th>
+                                    <tr><th>目科別</th><td>鵜形目-鷺科</td></tr>
+                                    <tr><th>學名</th><td><i>Egretta garzetta</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、不普遍/夏候鳥、普遍/冬候鳥、普遍/過境鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>生活在平地至海拔1,700公尺的水田、旱田、湖泊、沼澤、溪澗、海邊，生活棲地相當多樣化。</td></tr>
+                                    <tr><th>食性</th><td>主要以魚、蝦、蛙及水生昆蟲為食，有時也會吃貝類、爬蟲類等。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>常常發出聲音，叫聲為粗啞的「啊-啊-」聲，通常在受到驚擾起飛時或是降落驅趕同類時發出叫聲。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>在臺灣的繁殖期為每年3至7月，一夫一妻制，於竹林、相思林及木麻黃林築巢，會群聚營巢，常與其它鷺類混群營巢於大樹上或樹林間，也有重複利用舊巢的習性。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.3跳出視窗內容 -->
+    <div class="modal fade" id="modal_no3"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_3" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/小環頸鴴01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/小環頸鴴02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/小環頸鴴03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_3" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_3" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">小環頸鴴</th>
+                                    <tr><th>目科別</th><td>鴴形目-鴴科</td></tr>
+                                    <tr><th>學名</th><td><i>Charadrius dubius</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、不普遍/冬候鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>偏好淡水性的環境，生活於水田、沼澤、排水後的魚塭及多石的河床。常單獨或成小群活動，很少與其它岸鳥混棲，行進的方式是小跑步方式，覓食時常以腳在淺水中攪動，再啄食浮出水面的生物。</td></tr>
+                                    <tr><th>食性</th><td>主要食物為昆蟲，也由土中啄起蠕蟲。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>飛行時常發出微弱「皮-」單哨音。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>臺灣多石的溪床地帶或海灘均有繁殖紀錄。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.4跳出視窗內容 -->
+    <div class="modal fade" id="modal_no4"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">
+                <div class="modal-body"><div id="myCarousel_4" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/白鶺鴒01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/白鶺鴒02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/白鶺鴒03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_4" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_4" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">白鶺鴒</th>
+                                    <tr><th>目科別</th><td>燕雀目-鶺鴒科</td></tr>
+                                    <tr><th>學名</th><td><i>Motacilla alba</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍/冬候鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>通常見於平原的濕地及低海拔的水域，包括農耕地、河床、池塘、堤岸、住家、道路等環境。頗能適應人類以及都市環境，臺灣許多城市皆有白鶺鴒夜間群棲在鬧區樹上的的報導 。</td></tr>
+                                    <tr><th>食性</th><td>主要以無脊椎動物為食，絕大部分是節肢動物。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>鳴唱聲有兩種，較常聽到的為停立在高處時所發出的連續、清晰「唧唧、唧唧、唧唧⋯」宣示鳴唱聲，「唧唧」與「唧唧」之間相隔約一秒，停頓較白鶺鴒飛行時所慣常發出的「唧唧」叫聲為長；另一種則是婉囀多變的鳴唱聲，一般持續5到15秒之間，也有超過半分鐘以上，但是這種鳴唱聲並不常聽到。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>在臺灣繁殖季為 4 月至 6 月，築巢於樹洞、岩石隙縫、橋墩或建築物內，築碗形巢。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.5跳出視窗內容 -->
+    <div class="modal fade" id="modal_no5"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_5" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/東方環頸鴴01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/東方環頸鴴02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/東方環頸鴴03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_5" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_5" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">東方環頸鴴</th>
+                                    <tr><th>目科別</th><td>鴴形目-鴴科</td></tr>
+                                    <tr><th>學名</th><td><i>Charadrius alexandrinus</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、不普遍/冬候鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>生活於海濱泥灘地及水生生物豐富的河口地區的潮間帶，比較偏好鹹水的環境。</td></tr>
+                                    <tr><th>食性</th><td>啄食泥灘上的昆蟲、節肢動物及軟體動物。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>飛行時會發出細碎「唭、唭、唭」聲。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期為4至6月，於潮水線以上的平坦、植被稀疏貧瘠的沙地上，在泥土、淤泥、沙地或疏鬆的卵石地挖一淺窪為巢，巢通常無襯墊或以小石稍微襯墊，當周圍環境有牡蠣殼時，也會添加牡蠣殼碎片。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.6跳出視窗內容 -->
+    <div class="modal fade" id="modal_no6"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+                <div class="modal-body"><div id="myCarousel_6" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/青足鷸01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/青足鷸02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/青足鷸03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_6" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_6" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">青足鷸</th>
+                                    <tr><th>目科別</th><td>鴴形目-鷸科</td></tr>
+                                    <tr><th>學名</th><td><i>Tringa nebularia</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>冬候鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>：出現在各地平地的水域，包括海濱、河口、沼澤地、河川地、湖泊、池塘、鹽田及水田等都可見到其蹤跡。</td></tr>
+                                    <tr><th>食性</th><td>主要以攝取小魚為主，在繁殖地攝取許多昆蟲。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>飛行時常發出響亮連續3至4音節的「盔盔盔」的哨音叫聲，為水鳥中少數可用鳴叫聲輕易辨別者。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>臺灣沒有繁殖紀錄。</td></tr>
+                            </table></div></div></div></div></div></div>
+
+    <!-- No.7跳出視窗內容 -->
+    <div class="modal fade" id="modal_no7"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_7" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/紅冠水雞01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/紅冠水雞02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/紅冠水雞03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_7" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_7" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">紅冠水雞</th>
+                                    <tr><th>目科別</th><td>鶴形目-秧雞科</td></tr>
+                                    <tr><th>學名</th><td><i>Gallinula chloropus</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲息於低平原長有挺水植物的濕地，如河川、溪流、湖泊、池塘、水庫等水域附近的蘆葦叢、灌木叢、草叢及沼澤和稻田中。可以忍受各種氣候條件，但不耐寒。</td></tr>
+                                    <tr><th>食性</th><td>雜食性。食譜中的動物和植物的比例各地不同。通常都在水邊草叢覓食，有時也上岸到草地上啄食。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>鳴聲脆而清晰，似「kirrik, crek, rek,rek」常在黃昏時鳴叫。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期在4至7月，一年可生2窩。一夫一妻單配制，有領域性，有時配對關係可維持數年。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>
+    <!-- No.8跳出視窗內容 -->
+    <div class="modal fade" id="modal_no8"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_8" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/高蹺鴴01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/高蹺鴴02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/高蹺鴴03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_8" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_8" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">高蹺鴴</th>
+                                    <tr><th>目科別</th><td>鴴形目-反嘴鴴科</td></tr>
+                                    <tr><th>學名</th><td><i>Himantopus himantopus</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍/冬候鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>棲局部普遍的冬候鳥，以臺灣南部近海鹽田的數量最多，近年來度冬數量可達數百隻，也常出現於近海的魚塭、沼澤、河口。本種在臺灣最喜好的棲地分別為鹽田、魚塭、河岸。</td></tr>
+                                    <tr><th>食性</th><td>：肉食性，主要捕食水生動物，包括水生昆蟲及其幼蟲，甲殼類、蝌蚪及小魚為食。採食種類隨季節及環境而變化。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>刺耳的「呿、呿、呿」聲。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>在臺灣的繁殖期為3至7月。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div> 
+    <!-- No.9跳出視窗內容 -->
+    <div class="modal fade" id="modal_no9"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_9" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/黃頭鷺01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/黃頭鷺02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/黃頭鷺03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_9" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_9" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">黃頭鷺</th>
+                                    <tr><th>目科別</th><td>鵜形目-鷺科</td></tr>
+                                    <tr><th>學名</th><td><i>Bubulcus ibis</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、不普遍/夏候鳥、普遍/冬候鳥、普遍/過境鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>鷺對於棲地的偏好與大部分鷺科不同，比較喜歡較為乾燥及開闊的地區，如平地至海拔2,100公尺以下的水田、旱田、沼澤、草原、農場、牧場及垃圾場及高速公路邊坡草皮等都是牠們喜愛的生活環境。</td></tr>
+                                    <tr><th>食性</th><td>食物依所處的環境而定，跟隨大型動物時，主要攝取驚起的蚱蜢及蟋蟀，同時也會攝食甲蟲、蝶類、蜻蜓等昆蟲。另外在濕地會攝取貝、蝦、蛙、蜥蜴、蛇及小鼠等，也時常聚集在垃圾場撿食腐爛物及蒼蠅等。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>通常不發出聲音，繁殖季則十分吵雜，發出「啦-」的叫聲以維護領域。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期為每年3至7月，會與小白鷺、夜鷺等集體築巢於竹林、相思林及木麻黃林。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>  
+    <!-- No.10跳出視窗內容 -->
+    <div class="modal fade" id="modal_n10"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_10" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/翠鳥01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/翠鳥02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/翠鳥03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_10" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_10" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">翠鳥</th>
+                                    <tr><th>目科別</th><td>佛法僧目-翡翠科</td></tr>
+                                    <tr><th>學名</th><td><i>Alcedo atthis</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>留、普遍/過境鳥、不普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>普遍生活於海拔1,200公尺以下的溪澗、河川、池塘、灌溉渠道的岸邊，也會出現在海邊、河口及紅樹林間。需要清澈及流和緩的水域。</td></tr>
+                                    <tr><th>食性</th><td>以淺水中的小魚為主食，兼食蝦及水生昆蟲及幼蟲，無法消化的魚骨及昆蟲甲殼則以食繭的方式吐出，通常一天數次。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>在飛行時常發出「唧-」一聲，有時也會發出急促而連續的「唧唧唧」鳴叫，不會鳴唱。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>繁殖期為3至7月，雌雄鳥合力在河岸或池塘土岸上以喙啄洞為巢。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>  
+    <!-- No.11跳出視窗內容 -->
+    <div class="modal fade" id="modal_n11"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_11" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/蒼鷺01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/蒼鷺02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/蒼鷺03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_11" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_11" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">蒼鷺</th>
+                                    <tr><th>目科別</th><td>	鵜形目-鷺科</td></tr>
+                                    <tr><th>學名</th><td><i>Ardea cinerea</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>冬候鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>多出現於泥灘潮間帶、池塘、湖畔、河口、沼澤及濕草地。常與其它鷺鳥如大白鷺、中白鷺和小白鷺混群或單獨活動。</td></tr>
+                                    <tr><th>食性</th><td>動物性的食物如魚、蛙、蝦、蟹、蛇、雛鳥及無脊椎動物等為主，偶而也啄食植物。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>為單音節「啊」，低沉而粗啞。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>臺灣沒有繁殖紀錄。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>   
+    <!-- No.12跳出視窗內容 -->
+    <div class="modal fade" id="modal_n12"> 
+        <div class="modal-dialog  modal-dialog-centered modal-lg">          >
+            <div class="modal-content">     
+        <!-- 無header--><!-- body 輪播+表格-->
+                <div class="modal-body"><div id="myCarousel_12" class="carousel slide"><div class="carousel-inner">
+                          <div class="carousel-item active"><img src="../img_sp/海岸/磯鷸01.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/磯鷸02.jpg" class="d-block w-100"></div>
+                          <div class="carousel-item"><img src="../img_sp/海岸/磯鷸03.jpg" class="d-block w-100"></div></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel_12" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel_12" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                      </div><br>
+                            <div><table><th class="thTitle" colspan="2">磯鷸</th>
+                                    <tr><th>目科別</th><td>	鴴形目-鷸科</td></tr>
+                                    <tr><th>學名</th><td><i>Actitis hypoleucos</i></td></tr>
+                                    <tr><th>臺灣地區遷徒屬性</th><td>冬候鳥、普遍</td></tr>
+                                    <tr><th>特有性/保育等級</th><td>無</td></tr>
+                                    <tr><th>棲地與習性</th><td>廣泛分布於河口、海岸、沼澤、山區溪流、湖邊等，以及市區的排水溝。最高出現在海拔一千多公尺的水域。</td></tr>
+                                    <tr><th>食性</th><td>主要以攝取小魚為主，在繁殖地攝取許多昆蟲。</td></tr>
+                                    <tr><th>鳴叫聲</th><td>飛行時常發出響亮連續3至4音節的「盔盔盔」的哨音叫聲，為水鳥中少數可用鳴叫聲輕易辨別者。</audio></td></tr>
+                                    <tr><th>繁殖期</th><td>臺灣沒有繁殖紀錄。</td></tr>
+                            </table></div></div></div>   
+        <!-- 無footer --></div></div></div>         
+
+
+
+
+
+<!-- 頁尾資訊欄 -->
+<footer class="footer">
+    <hr style="border:solid 0.5px rgb(105, 104, 104);">
+    <div class="footerDiv">
+        聯絡我們<br>
+        電話:02-12345678<br>
+        地址:110台北市信義區信義路五段7號89樓<br>
+        郵件:aaa@ibird.com.tw
+    <div style="margin-left: 50px;">
+        <a href="https://www.facebook.com/groups/frontbird/"  target="_blank"><img src="../img/FB_logo_preview_rev_1.png" class="footImg"></a>
+        <a href="https://twitter.com/"  target="_blank"><img src="../img/TW_logo_preview_rev_1.png" class="footImg"></a>
+        <a href="https://www.instagram.com/twbf_insta/"  target="_blank"><img src="../img/IG_logo_preview_rev_1.png" class="footImg"></a>
+    </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
